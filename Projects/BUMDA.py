@@ -1,10 +1,8 @@
-# Ilse Adriana Pacheco Torres
-
 import numpy as np
 
 # Sphere function
-def sphere(indidual):
-    return np.sum(np.square(indidual))
+def sphere(individual):
+    return np.sum(np.square(individual))
 
 # Fitness function
 def fitness_func(i_fitness, w_fitness):
