@@ -22,7 +22,7 @@ if __name__ == '__main__':
     
     # for i in range(cpu_count()):
         # vals.append(pool.apply(calculatePI, args=(i+1, n, cpu_count(),)))
-
+    
     pool.close()
     pool.join()
 
